@@ -20,7 +20,7 @@ function isValidWalk(walk) {
   }
   return total === 0;
   // other answers:
-    
+
   // I was thinking to use reduce...
   // return walk.length === 10 && walk.reduce((a, b) => a + b, 0) === 0;
   // -------------------------------------------------------

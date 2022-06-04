@@ -8,7 +8,7 @@ Examples:
 FUNDAMENTALS STRINGS */
 
 function solution(str) {
-    // --- Time: 889ms ---
+  // --- Time: 889ms ---
   return str.split("").reverse().join("");
 }
 

@@ -13,15 +13,15 @@ summation(8) -> 36
 FUNDAMENTALS */
 
 var summation = function (num) {
-    // --- Time: 639ms ---
+  // --- Time: 639ms ---
   let total = 0;
   for (let i = 0; i <= num; i++) {
     total += i;
   }
-    return total;
-    
-    // Other answers:
-    // return (num * (num + 1)) / 2;
+  return total;
+
+  // Other answers:
+  // return (num * (num + 1)) / 2;
 };
 
 // --- Tests ---

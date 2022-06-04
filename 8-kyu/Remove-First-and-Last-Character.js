@@ -11,7 +11,6 @@ function removeChar(str) {
 //   return str.slice(1, -1);
 // }
 
-
 // --- Tests ---
 // const chai = require("chai");
 // const assert = chai.assert;
